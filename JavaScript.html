@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript ProLang</title>
+    <link rel="stylesheet" href="JavaScript Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">JavaScript</h1>
+        <div id="GlowingBar"></div>
+        <img id="JSLogo" src="Asset/Invert-JavaScript-logo.png" alt="">
+        
+       
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">JavaScript</h1>
+        <div id="JSLogo2"></div>
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is JavaScript?
+            </p>
+            <p id="ThaiWhatIs">JavaScript คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                จาวาสคริปต์ (JavaScript) เป็นภาษาทีมีลักษณะการเขียนแบบโพรโทไทป์ (Prototyped-based Programming) ส่วนมากใช้ในหน้าเว็บเพื่อประมวลผลข้อมูลที่ฝั่งของผู้ใช้งาน และก็ยังมีใช้เพื่อเพิ่มเติมความสามารถในการเขียนสคริปต์โดยฝังอยู่ในโปรแกรมอื่น ๆ
+                เป็นภาษาที่มีการใช้งานกว้างขวางและหลากหลายมาก
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Why should you learn JavaScript?</p>
+			<p id="ThaiWhy">ทำไมคุณควรเรียน JavaScript</p>
+			<p id="WhyLearnDetail"> 
+                จาวาสคริปต์ (JavaScript) เป็น 1 ในภาษาที่ผู้พัฒนาเว็บทุกคนต้องเรียน <br>
+				1. HTML เพื่อจำกัดความเนื้อหาของเว็บเพจ <br>
+				2. CSS เพื่อระบุ layout ของเว็บ <br>
+				3. JavaScript เพื่อกำหนด(program)การกระทำของเว็บ
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous Apps Built with JavaScript.
+             </p>
+             <p id="ThaiFamous">แอพดังที่สร้างด้วย Javascript</p>
+             <p id="AngryBird"> 
+                 แอ็งกรี เบิดส์ (Angry Birds) เป็นวิดีโอเกมแนวลับสมอง (Puzzle) พัฒนาขึ้นโดยบริษัทจากฟินแลนด์ที่ชื่อ โรวิโอโมไบล์ <br> ออกวางจำหน่ายครั้งแรกทางแอปสโตร์ทางไอโฟน และไอพ็อดทัช ของแอปเปิล และเกมยังอยู่ในรูปสมาร์ตโฟนแบบทัชสกรีนอื่นอีกด้วย
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="AngryBirdLogo" src="Asset/AngryBird.png" alt="">
+            <div id="AngryBirdLogoBG" ></div>
+            <div id="AngryBirdLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Java Script.js"></script>
+
+</script>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R ProLang</title>
+    <link rel="stylesheet" href="R Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">R</h1>
+        <div id="GlowingBar"></div>
+        <img id="Logo" src="Asset/R_logo.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">R</h1>
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is R?
+            </p>
+            <p id="ThaiWhatIs">R คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                R เป็นภาษาโปรแกรมที่นิยมใช้สำหรับการคำนวณทางสถิติและกราฟิก มีความสามารถในการวิเคราะห์ข้อมูล การเรียนรู้ของเครื่อง และการแสดงผลข้อมูลอย่างหลากหลาย นอกจากนี้ R ยังมีชุมชนผู้ใช้และนักพัฒนาที่ใหญ่และกระแสความคิดสร้างสรรค์ที่ต่อเนื่อง
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. เหมาะกับการวิเคราะห์และแสดงผลสถิติ <br>       
+				2. คอมมูนิตี้ที่ใหญ่ และ เป็น open-source<br>
+                ข้อเสีย <br>
+				1. ใช้ memory มากจากการใช้ในงานที่ข้อมูลมาก<br>
+                2. มีความยากในการเรียนรู้ <br>
+                3. Gui ไม่ค่อยมีความ appealing
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Statistic Software built with R
+             </p>
+             <p id="ThaiFamous">ซอฟต์แวร์สถิติที่สร้างด้วย R </p>
+             <p id="FamousDetail"> 
+                RStudio เป็นแอปพลิเคชันฟรีและโอเพนซอร์ซสำหรับ Integrated Development Environment (IDE) สำหรับภาษาโปรแกรม R มันให้ส่วนติดต่อผู้ใช้งานสำหรับเขียนและรันโค้ด R อย่างเป็นมิตรต่อผู้ใช้งาน รวมถึงมีคุณสมบัติสำหรับการจัดการและแสดงข้อมูลได้อย่างสะดวกสบาย
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/RStudio.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Python Script.js"></script>
+
+</script>
+</html>

@@ -1,0 +1,610 @@
+@font-face {
+    font-family: AgencyFB;
+    src:url(Asset/AGENCYR.TTF);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Mitr;
+    src: url(Asset/Mitr-Regular.ttf);
+    font-weight: normal;
+}
+
+@-webkit-keyframes glow {
+    from {
+      opacity: 1;
+    }
+    
+    to {
+     opacity: 0;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #576063;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(185, 185, 185); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255); 
+  }
+
+/*BlackTab*/
+.websitelogo {
+    color: black;
+    
+    transition: all 0.4s;
+}
+.blacktab {
+    background-color: #576063;
+    width:100%;
+    height:80px;
+    font-family: AgencyFB; /* */
+    position: fixed;
+    left:0%;
+    top:0%;
+    opacity: 0.85;
+    color: #e5e9eb;
+    z-index: 4;
+    transition: opacity 0.5s;
+}
+.blacktab>h1 {
+    
+    position: absolute;
+    left: 2% ;
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.4s;
+}
+.blacktab>h2 { /*about*/
+    color: #e5e9eb;
+    position: absolute;
+    right: 180px;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.4s;
+}
+.articletext{
+    color: #e5e9eb;
+    font-family: Mitr;
+    position: absolute;
+    left: 20%;
+}
+
+#Contact {
+    color:#e5e9eb;
+    position: absolute;
+    right: 50px;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+}
+
+#TechnicalTerm {
+    color:#e5e9eb;
+    position: absolute;
+    right: 270px;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+}
+
+/*BackgroundPic*/
+#Mainbackground {
+    /* Set rules to fill background */
+    min-width: auto;
+    background-color: #e5e9eb;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: 260%;
+      
+    /* Set up positioning */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+ }
+
+
+ /*Logo*/
+#Banner{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 14%;
+    width: 110vh;
+    height: 38vh;
+    z-index: 2;
+    transition: all 0.4s;
+    
+}
+
+#TextLogo{
+    color: #454c4e;
+    position: relative;
+    font-family: AgencyFB;
+    font-size: 22vh;
+    width: 100%;
+    height: auto;
+    left: 10vw;
+    transition: all 0.4s;
+    z-index: 2;
+    margin: 33px auto;
+    overflow: hidden;
+}
+#glowingbar {
+    position: absolute;
+    background-color:#454c4e;
+    width: 100%;
+    height: 4%;
+    left: 10vw;
+    top:  85%;
+    transition: all 0.5s;
+    z-index: 2;
+}
+#TechLogo {
+    position: absolute;
+    left: -18%;
+    top: 4vh;
+
+    width: 30%;
+    height: auto;
+    z-index: 2;
+}
+
+/*Shadow*/
+#ShadowBanner{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 14%;
+    width: 110vh;
+    height: 38vh;
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+#TextLogo2{
+    color:  #7c8588;
+    position: absolute;
+    font-family: AgencyFB;
+    font-size: 22vh;
+    width: 100%;
+    height: auto;
+    left: 10vw;
+    transition: all 0.4s;
+    z-index: 2;
+    margin: 33px auto;
+}
+#glowingbar2 {
+    position: absolute;
+    background-color: #7c8588;
+    width: 100%;
+    height: 4%;
+    left: 10vw;
+    top:  85%;
+    transition: all 0.5s;
+    z-index: 2;
+}
+#TechLogo2 {
+    top: 10%;
+    position: relative;
+    top: 4vh;
+    left: -18%;
+    width: 30%;
+    height: auto;
+    z-index: 2;
+}
+
+
+
+/*article*/
+#mainpart {
+     /* Set rules to fill background */
+     min-height: 189%;
+    background-color:#576063;
+     /* Set up proportionate scaling */
+     width: 90vw;
+     height: 90vh;
+       
+     /* Set up positioning */
+     position: absolute;
+     top: 55%;
+     left: 5%;
+     z-index: 1;
+}
+#firstarticle {
+    background-color: #7c8588;
+    width: 95%;
+    height:35vh;
+    position: absolute;
+    top: 6vh;
+    left: 2.5%;
+    z-index: 2;
+}
+#whatisprolang{
+    position: absolute;
+    left: 30px;
+    top:-20px;
+    right: 10px;
+    font-size: 5.8vh;
+    font-family: AgencyFB;
+    color: #e5e9eb;
+    width: 93%;
+}
+#thaiwhatisprolang{
+    position: absolute;
+    left: 30px;
+    top:60px;
+    right: 10px;
+    font-size: 3vh;
+    color:#e5e9eb;
+    width: 93%;
+   
+}
+#prolangdetail{
+    position: absolute;
+    left: 30px;
+    top:110px;
+    right: 10px;
+    font-size: 2.4vh;
+    color: #e5e9eb;
+    width: 93%;
+    height: 13vh;
+ 
+}
+/*thread*/
+#secondarticle {
+    background-color: #7c8588;
+    width: 95%;
+    height:40vh;
+    position: absolute;
+    top: 46vh;
+    left: 2.5%;
+    z-index: 2;
+    
+}
+#whatisthread{
+    position: absolute;
+    left: 30px;
+    top:-20px;
+    right: 10px;
+    font-size: 6vh;
+    font-family: AgencyFB;
+    color: #e5e9eb;
+    width: 93%;
+    text-align: right;
+}
+#thaiwhatisthread{
+    position: absolute;
+    left: 30px;
+    top:60px;
+    right: 10px;
+    font-size: 3vh;
+    color:#e5e9eb;
+    width: 93%;
+    text-align: right;
+}
+#threaddetail{
+    position: absolute;
+    left: 30px;
+    top:110px;
+    right: 10px;
+    font-size: 2.4vh;
+    color: #e5e9eb;
+    width: 93%;
+    text-align: right;
+    height: 18vh;
+}
+#threaddetail>a {
+    color: black;
+}
+/*Garbage*/
+
+#thirdarticle {
+    background-color: #7c8588;
+    width: 95%;
+    height:41vh;
+    position: absolute;
+    top: 91vh;
+    left: 2.5%;
+    z-index: 2;
+    
+}
+#whatisGC{
+    position: absolute;
+    left: 30px;
+    top:-20px;
+    right: 10px;
+    font-size: 6vh;
+    font-family: AgencyFB;
+    color: #e5e9eb;
+    width: 93%;
+
+}
+#thaiwhatisGC{
+    position: absolute;
+    left: 30px;
+    top:60px;
+    right: 10px;
+    font-size: 3vh;
+    color:#e5e9eb;
+    width: 93%;
+
+}
+#GCdetail{
+    position: absolute;
+    left: 30px;
+    top:110px;
+    right: 10px;
+    font-size: 2.4vh;
+    color: #e5e9eb;
+    width: 93%;
+    height: 20vh;
+}
+#GCdetail>a {
+    color: black;
+}
+/*fourth*/
+#fourtharticle {
+    background-color: #7c8588;
+    width: 95%;
+    height:35vh;
+    position: absolute;
+    top: 137vh;
+    left: 2.5%;
+    z-index: 2;
+    text-align: right;
+    
+}
+#whatiscompile{
+    position: absolute;
+    left: 30px;
+    top:-20px;
+    right: 10px;
+    font-size: 6vh;
+    font-family: AgencyFB;
+    color: #e5e9eb;
+    width: 93%;
+    text-align: right;
+
+}
+#thaiwhatiscompile{
+    position: absolute;
+    left: 30px;
+    top:60px;
+    right: 10px;
+    font-size: 3vh;
+    color:#e5e9eb;
+    width: 93%;
+    text-align: right;
+
+}
+#compiledetail{
+    position: absolute;
+    left: 30px;
+    top:110px;
+    right: 10px;
+    font-size: 2.4vh;
+    color: #e5e9eb;
+    width: 93%;
+    text-align: right;
+    height: 14vh;
+}
+#compiledetail>a {
+    color: black;
+}
+#learnmore{
+    position: absolute;
+    right: 3%;
+    top:180vh;
+    font-size: 2.4vh;
+    color: #e5e9eb;
+    text-align: right;
+
+
+}
+#learnmore>a {
+    color: black;
+}
+
+@media only screen and (max-width:900px){
+    #Banner{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 14%;
+        width: 90vw;
+        height: 80vh;
+        transition: all 0.4s;
+    }
+    #TextLogo{
+        position: relative;
+        font-size: 18vh;
+        top: 60%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        transition: all 0.4s;
+        z-index: 2;
+        margin: 33px auto;
+        
+    }
+    #glowingbar {
+        width: 90%;
+        height: 1.5vh;
+        left: 50%;
+        transform: translate(-50%,0);
+        top:  93%;
+        transition: all 0.5s;
+        z-index: 2;
+    }
+    #TechLogo {
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 4vh;
+        width: 50%;
+        max-width: 325px;
+        z-index: 2;
+    }
+    
+    /*Shadow*/
+    #ShadowBanner{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 14%;
+        width: 90vw;
+        height: 80vh;
+        z-index: 1;
+        transition: all 0.4s;
+    }
+    
+    #TextLogo2{
+        color:  #7c8588;
+        position: relative;
+        font-family: AgencyFB;
+        font-size: 18vh;
+        top: 60%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        transition: all 0.4s;
+        z-index: 2;
+        margin: 33px auto;
+    }
+    #glowingbar2 {
+        position: absolute;
+        background-color: #7c8588;
+        width: 90%;
+        height: 1.5vh;
+        left: 50%;
+        transform: translate(-50%,0);
+        top:  93%;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    #TechLogo2 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 4vh;
+        width: 50%;
+        max-width: 325px;
+        height: auto;
+        z-index: 1;
+    }
+    /*article*/
+#mainpart {
+    /* Set rules to fill background */
+    min-height: 189%;
+   background-color:#576063;
+    /* Set up proportionate scaling */
+    width: 90vw;
+    height: 90vh;
+      
+    /* Set up positioning */
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    z-index: 1;
+}
+#prolangdetail{
+    overflow-y: scroll;
+}
+#threaddetail{
+    overflow-y: scroll;
+}
+#GCdetail{
+    overflow-y: scroll;
+}
+#compiledetail{
+    overflow-y: scroll;
+}
+#whatiscompile{
+    font-size: 5vh;
+}
+#thaiwhatiscompile{
+    top: 70px;
+    line-height: 20px;
+    font-size: 2.5vh;
+}
+#whatisprolang{
+    font-size: 5vh;
+}
+}
+
+@media only screen and (max-width:603px){
+    #TextLogo{
+        position: relative;
+        font-family: AgencyFB;
+        font-size: 18vh;
+        top: 50%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        transition: all 0.4s;
+        z-index: 2;
+        margin: 33px auto;
+        line-height: 110px;
+    }
+    #glowingbar {
+        width: 90%;
+        height: 1.5vh;
+        left: 50%;
+        transform: translate(-50%,0);
+        top:  102%;
+        transition: all 0.5s;
+        z-index: 2;
+    }
+    #TextLogo2{
+
+        font-family: AgencyFB;
+        font-size: 18vh;
+        top: 50%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        transition: all 0.4s;
+        z-index: 2;
+        margin: 33px auto;
+        line-height: 110px;
+    }
+    #glowingbar2 {
+        position: absolute;
+        width: 90%;
+        height: 1.5vh;
+        left: 50%;
+        transform: translate(-50%,0);
+        top:  102%;
+        transition: all 0.5s;
+        z-index: 2;
+    }
+}
+/*hover*/
+
+.blacktab:hover {
+    opacity: 1;
+}
+.WebsiteLogo:hover{
+    text-shadow: 0 0 10px white; 
+    cursor: pointer;
+}
+
+.blacktab>h2:hover{
+    cursor: pointer;
+    text-shadow: 0 0 10px white; 
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>  
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProLong</title>
+    <link rel="stylesheet" href="ProlangFirstVer Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+
+<body onload="LoadingScreen()">
+	
+			<div class="blacktab">
+				<h1 class = "WebsiteLogo" onclick="Home()">
+					Prolang
+				</h1>	
+				<h2 onclick="About()">
+					About
+				</h2>
+				<h2 id = "Contact">
+					Contact Us
+				</h2>
+			</div>
+			<img id="Mainbackground" src="Asset/Coding.jpg" alt="Coding">
+		
+			<div id="LanguageSelecter">
+				<div class="whitebox" id="realbox" > </div>
+				<img onmouseover="LanguageHover('javascript')" onmouseleave="LanguageHover('none')" id = "jslogo" src="Asset/JavaScript-logo.png" alt="JavaScript-logo">
+				<img onmouseover="LanguageHover('python')" onmouseleave="LanguageHover('none')" id = "pythonlogo" src="Asset/Python-logo.png" alt="Python-logo">
+				<img onmouseover="LanguageHover('java')" onmouseleave="LanguageHover('none')" id = "javalogo" src="Asset/java-logo.jpg" alt="java-logo">
+				<img onmouseover="LanguageHover('go')" onmouseleave="LanguageHover('none')" id = "gologo" src="Asset/Go-Logo_Blue.png" alt="Gologo">
+				<img onmouseover="LanguageHover('kotlin')" onmouseleave="LanguageHover('none')" id = "kotlinlogo" src="Asset/Kotlin_Icon.png" alt="Kotlin_Icon">
+				<img onmouseover="LanguageHover('php')" onmouseleave="LanguageHover('none')" id = "phplogo" src="Asset/php logo.png" alt="php-logo">
+				<img onmouseover="LanguageHover('c')" onmouseleave="LanguageHover('none')" id = "clogo" src="Asset/C_logo.png" alt="C_logo">
+				<img onmouseover="LanguageHover('c#')" onmouseleave="LanguageHover('none')" id = "csharplogo" src="Asset/Csharp_logo.png" alt="C#_logo">
+				<img onmouseover="LanguageHover('c++')" onmouseleave="LanguageHover('none')" id = "cpluspluslogo" src="Asset/ISO_C++_Logo.png" alt="C++_logo">
+				<img onmouseover="LanguageHover('r')" onmouseleave="LanguageHover('none')" id = "rlogo" src="Asset/R_logo.png" alt="R_logo">
+				<img onmouseover="LanguageHover('typescript')" onmouseleave="LanguageHover('none')" id = "typescriptlogo" src="Asset/Typescript_logo.png" alt="Typescript_logo">
+				<img onmouseover="LanguageHover('lua')" onmouseleave="LanguageHover('none')" id = "lualogo" src="Asset/Lua-Logo.png" alt="Lua-Logo">
+			</div>
+			
+			<div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+				<img id="Logo" src="Asset/Logo.PNG" alt="Logo">
+				<img id="NeonLogo"src="Asset/GlowingLogo.PNG" alt="GlowingLogo">
+				<p id = "Introduction">
+					
+				</p>
+				<p id="DefaultIntroduction">
+					เว็บไซต์ที่จะนำเสนอ "ภาษาของโปรแกรม" 
+				</p>
+				
+			</div>
+
+			<div id = "LoadingBackground">
+				<h1 id = "PercentageNumber">
+					0%
+				</h1>
+				<h1 id = "LoadingText">
+					Loading . . .
+				</h1>
+			</div>
+			<div id = "outsideloading">
+					<div id="insideloading">
+
+					</div>
+			</div>
+
+</body>
+
+
+<script src="Prolang Script.js"></script>
+
+
+
+</html>

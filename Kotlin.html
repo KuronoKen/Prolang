@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotlin ProLang</title>
+    <link rel="stylesheet" href="Kotlin Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">Kotlin</h1>
+        <div id="GlowingBar"></div>
+        <img id="Logo" src="Asset/Kotlin_Icon.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">Kotlin</h1>
+        <img id="Logo" src="Asset/Kotlin_Shadow.png" alt="">
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is Kotlin?
+            </p>
+            <p id="ThaiWhatIs">Kotlin คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                Kotlin เป็นภาษาโปรแกรมที่มีการพิมพ์แบบ static โดยออกแบบมาเพื่อให้สามารถแสดงผลได้อย่างชัดเจน ปลอดภัย และสามารถทำงานร่วมกับ Java ได้อย่างดี
+                ทำให้เป็นทางเลือกยอดนิยมสำหรับการพัฒนาแอปพลิเคชันบนมือถือและเว็บไซต์ มีฟีเจอร์ภาษาที่ทันสมัยและเป็น Open-Source
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. ทำงานร่วมกันได้กับ Java <br>       
+				2. มีคอมมูนิตี้ที่ใหญ่<br>
+                3. มี null safety และ type inference ที่ช่วยลดความผิดพลาดในตอนรัน <br>
+                ข้อเสีย <br>
+				1. ไม่มีนิยมมากเท่ากับภาษาที่มีอยู่แล้ว เช่น Java หรือ Python<br>
+                2. การ support อาจไม่มากพอในหลายอย่าง
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous application that are built with Kotlin
+             </p>
+             <p id="ThaiFamous">แอปพลิเคชันดังที่ถูกสร้างด้วย Kotlin </p>
+             <p id="FamousDetail"> 
+                Pinterest เป็นแพลตฟอร์มสื่อสังคมที่ได้รับความนิยมสำหรับการแบ่งปันไอเดียและแรงบันดาลใจ 
+                แอป Pinterest เริ่มต้นพัฒนาด้วยภาษา Java แต่ทีมพัฒนาภายหลังใน version Android ได้ย้ายมาใช้ Kotlin เนื่องจากมีฟีเจอร์ภาษาที่ทันสมัย syntax สั้นและกระชับ และเพิ่มประสิทธิภาพในการพัฒนา
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Pinterest.png" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Java Script.js"></script>
+
+</script>
+</html>

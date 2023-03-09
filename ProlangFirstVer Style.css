@@ -1,0 +1,401 @@
+@font-face {
+    font-family: AgencyFB;
+    src:url(Asset/AGENCYR.TTF);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Mitr;
+    src: url(Asset/Mitr-Regular.ttf);
+    font-weight: normal;
+}
+.websitelogo {
+    color: white;
+    
+    background-color: black;
+    border: 1px solid;
+    border-color: red;
+
+}
+.blacktab {
+    background-color: black;
+    width:100%;
+    height:80px;
+    font-family: AgencyFB; /* */
+    position: fixed;
+    left:0%;
+    top:0%;
+    opacity: 0.85;
+    color: white;
+    z-index: 4;
+    transition: opacity 0.5s;
+}
+.blacktab>h1 {
+    
+    position: absolute;
+    left: 2% ;
+    opacity: 1;
+    z-index: 5;
+}
+.blacktab>h2 { /*about*/
+    color: white;
+    position: absolute;
+    right: 13%;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+}
+#Contact {
+    color: white;
+    position: absolute;
+    right: 4%;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+}
+#Mainbackground {
+   /* Set rules to fill background */
+   min-height: 100%;
+   min-width: 1024px;
+     
+   /* Set up proportionate scaling */
+   width: 100%;
+   height:100%;
+     
+   /* Set up positioning */
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 0;
+}
+.whitebox {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    color: black;
+    font-family: AgencyFB; 
+}
+#LanguageSelecter {
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    width: 500px;
+    height: 200px;
+    max-width:100%;
+    z-index: 1;
+    transition: opacity 0.5s;
+}
+#realbox{
+    height: 100%;
+    transition: opacity 0.5s;
+}
+
+#Banner {
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    max-width:200%;
+    background-color: black;
+    opacity: 0.9;
+    width: 400px;
+    height: 350px;
+    transition: opacity 0.5s;
+
+}
+#Logo {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 6%;
+    top: 8%;
+}
+#NeonLogo {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 6%;
+    top: 8%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#Introduction {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-family: Mitr;
+    transition: all 0.4s;
+}
+#DefaultIntroduction {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-family: Mitr;
+    transition: all 0.4s;
+}
+
+/*Loading Screen*/
+
+#LoadingBackground {
+    background-color: black;
+    /* Set rules to fill background */
+   min-height: 100%;
+   min-width: 1024px;
+     
+   /* Set up proportionate scaling */
+   width: 100%;
+   height:100%;
+     
+   /* Set up positioning */
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 6;
+   transition: all 1s;
+}
+#outsideloading {
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    position: fixed;
+    width: 40%;
+    height: 4%;
+    top: 50%;
+    left: 30%;
+    z-index: 7;
+    transition: all 1s;
+}
+#insideloading{
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    /*width:98%;*/  /* 98 * (percentage/100)*/ 
+    width: 0%;
+    left: 1%;
+    height: 60%;
+    z-index: inherit;
+    transition: width 4s cubic-bezier(0.7, 0, 0.84, 0);
+}
+#PercentageNumber {
+    color: white;
+    position: fixed;
+    left: 66%;
+    top: 40%;
+    z-index: 7;
+    font-family: AgencyFB;
+}
+#LoadingText {
+    color: white;
+    position: fixed;
+    left: 30%;
+    top: 40%;
+    z-index: 7;
+    font-family: AgencyFB;
+}
+
+
+
+/*Logo Section*/
+#jslogo { /*Logo on the selecter*/
+    width:12%;
+    height: auto;
+    position: absolute;
+    left:6%;
+    top: 15%;
+    transition: all 0.3s;
+    border-radius: 10%;
+}
+#typescriptlogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left:22%;
+    top: 15%;
+    transition: all 0.3s;
+}
+#javalogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    transition: all 0.3s;
+    border-radius: 10%;
+}
+#pythonlogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 53%;
+    top: 15%;
+    transition: all 0.3s;
+}
+#kotlinlogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 69%;
+    top: 15%;
+    transition: all 0.3s;
+}
+#phplogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 83%;
+    top: 15%;
+    transition: all 0.3s;
+}
+#clogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left:6%;
+    top: 55%;
+    transition: all 0.3s;
+}
+#csharplogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left:22%;
+    top: 55%;
+    transition: all 0.3s;
+}
+#cpluspluslogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 38%;
+    top: 55%;
+    transition: all 0.3s;
+}
+#rlogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 53%;
+    top: 57%;
+    transition: all 0.3s;
+}
+#gologo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 69%;
+    top: 55%;
+    transition: all 0.3s;
+}
+#lualogo {
+    width:12%;
+    height: auto;
+    position: absolute;
+    left: 83%;
+    top: 55%;
+    transition: all 0.3s;
+}
+
+/*hover function*/
+.blacktab:hover {
+    opacity: 1;
+}
+.WebsiteLogo:hover{
+    cursor: pointer;
+}
+#Banner:hover{
+    opacity: 1;
+}
+#realbox:hover{
+    opacity: 1;
+}
+#LanguageSelecter>img:hover{
+    opacity: 1;
+}
+.blacktab>h2:hover{
+    cursor: pointer;
+}
+
+/*logo hover*/
+#jslogo:hover {
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 4.5%; /* -1.5 */
+    top: 11%; /* -4 */
+}
+#typescriptlogo:hover{
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 20.5%;
+    top: 11%;
+}
+#javalogo:hover {
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 36.5%;
+    top: 11%;
+}
+#pythonlogo:hover {
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 51.5%;
+    top: 11%;
+}
+#kotlinlogo:hover {
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 67.5%;
+    top: 11%;
+}
+#phplogo:hover {
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 81.5%;
+    top: 11%;
+}
+#clogo:hover {
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 4.5%; /* -1.5 */
+    top: 51%; /* -4 */
+}
+#csharplogo:hover{
+    width: 15%;
+    cursor: pointer;
+    height: auto;
+    left: 20.5%;
+    top: 51%;
+}
+#cpluspluslogo:hover{
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 36.5%;
+    top: 51%;
+}
+#rlogo:hover{
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 51.5%;
+    top: 53%;
+}
+#gologo:hover{
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 67.5%;
+    top: 51%;
+}
+#lualogo:hover{
+    cursor: pointer;
+    width: 15%;
+    height: auto;
+    left: 81.5%;
+    top: 51%;
+}

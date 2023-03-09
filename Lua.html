@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lua ProLang</title>
+    <link rel="stylesheet" href="Lua Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">Lua</h1>
+        <div id="GlowingBar"></div>
+        <img id="Logo" src="Asset/Lua-Logo.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">Lua</h1>
+        <img id="Logo2" src="Asset/Lua-Logo-Shadow.png" alt="">
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is Lua?
+            </p>
+            <p id="ThaiWhatIs">Lua คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                Lua เป็นภาษาสคริปต์ที่เบา แรง และเร็ว ออกแบบมาเพื่อขยายประสิทธิภาพของแอปพลิเคชัน ในปัจจุบันได้รับการใช้งานอย่างแพร่หลายในการพัฒนาเกม การพัฒนาเว็บและระบบฝังตัว ลัวเป็นที่รู้จักกันดีเนื่องจากความเรียบง่าย ความยืดหยุ่น และความสะดวกในการผสมผสานกับภาษาโปรแกรมอื่น ๆ
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. เบาและเร็ว <br>       
+				2. เรียนรู้ได้ง่าย<br>
+                3. ยืดหยุ่น <br>
+                ข้อเสีย <br>
+				1. การสนับสนุนไลบรารีจำกัด<br>
+                2. ไม่ได้ใช้กันอย่างแพร่หลาย
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous Software that are built using Lua
+             </p>
+             <p id="ThaiFamous">แอปพลิเคชันดังที่ถูกสร้างด้วย Lua </p>
+             <p id="FamousDetail"> 
+                Roblox เป็นแพลตฟอร์มเกมยอดนิยมที่ใช้ภาษาโปรแกรมที่กำหนดเองชื่อ Lua ซึ่งเป็นภาษาที่ใช้สำหรับสคริปต์และการพัฒนาเกม และมีความเป็นที่รู้จักด้วยความกระชับ ความยืดหยุ่น และความสะดวกในการรวมภาษาโปรแกรมอื่นๆ
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Roblox.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Java Script.js"></script>
+
+</script>
+</html>

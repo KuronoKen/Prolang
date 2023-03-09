@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP ProLang</title>
+    <link rel="stylesheet" href="PHP Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">PHP</h1>
+        <div id="GlowingBar"></div>
+        <img id="JVLogo" src="Asset/php logo.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">PHP</h1>
+        <div id="JVLogo2"></div>
+    </div>
+    <img id="MainBackGround" src="Asset/Coding.jpg" alt="Coding">
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is PHP?
+            </p>
+            <p id="ThaiWhatIs">PHP คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                PHP เป็นภาษาสคริปต์บนเซิร์ฟเวอร์สำหรับการพัฒนาเว็บไซต์ ซึ่งเปิด open-source และใช้งานอย่างแพร่หลาย และมีความสะดวกในการใช้งานและความยืดหยุ่น สามารถติดต่อกับฐานข้อมูลเพื่อสร้างเว็บไซต์ที่เป็นไปได้และมีประสิทธิภาพได้
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. เรียนง่าย <br>       
+				2. คอมมูนิตี้ที่ใหญ่ และ เป็น open-source<br>
+                3. รับรองหลาย platform
+                ข้อเสีย <br>
+				1. มีความเสี่ยงด้านความปลอดภัย<br>
+                2. PHP อาจมีความไม่สอดคล้องกันในการเขียนสคริปต์กับพฤติกรรมของมัน
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous website that is powered by PHP.
+             </p>
+             <p id="ThaiFamous">เว็บไซต์ดังที่ทำงานได้ด้วย PHP </p>
+             <p id="FamousDetail"> 
+                Facebook,Wikipedia,WordPress,Yahoo เว็บเหล่านี้เป็นเพียงไม่กี่ตัวอย่างเพราะ PHP ถูกใช้งานอย่างแพร่หลายสำหรับการพัฒนาเว็บไซต์และเป็นตัวขับเคลื่อนเว็บไซต์และแอปพลิเคชันนับล้านเว็บไซต์ทั่วโลก
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Facebook.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Java Script.js"></script>
+
+</script>
+</html>

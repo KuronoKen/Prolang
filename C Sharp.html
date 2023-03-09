@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# ProLang</title>
+    <link rel="stylesheet" href="C Sharp Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">C#</h1>
+        <div id="GlowingBar"></div>
+        <img id="Logo" src="Asset/Csharp_logo.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">C#</h1>
+        <img id="Logo2" src="Asset/C_Shadow.png" alt="">
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is C#?
+            </p>
+            <p id="ThaiWhatIs">C# คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                C# เป็นภาษาโปรแกรมมิ่งที่ใช้งานง่าย ถูกพัฒนาโดย Microsoft สำหรับการสร้างแอปพลิเคชันเดสก์ท็อป แอปพลิเคชันเว็บ และเกม มันเป็นที่นิยมสำหรับการพัฒนา .NET และมีคุณสมบัติที่มีประโยชน์มากมาย เช่น garbage collection และ type safety
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. เรียนรู้ง่าย<br>       
+				2. syntax คล้ายภาษาหลายๆภาษา<br>
+                3. มี Garbage Collection <br>
+                ข้อเสีย <br>
+				1. จำกัดกับ Microsoft<br>
+                2.อาจยากต่อการเขียนโค้ดระดับต่ำ เมื่อเปรียบเทียบกับภาษาอื่นๆ เช่น C
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous game engine that uses C#
+             </p>
+             <p id="ThaiFamous">เกมเอนจิ้นดังที่ใช้ C# </p>
+             <p id="FamousDetail"> 
+                ยูนิตี้ (Unity) ใช้ C# เป็นภาษาโปรแกรมมิ่งหลักโดยส่วนใหญ่ แต่ยูนิตี้ยังรองรับภาษาโปรแกรมอื่นๆ เช่น UnityScript, Boo, และ HLSL ด้วย
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Unity.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="C Script.js"></script>
+
+</script>
+</html>

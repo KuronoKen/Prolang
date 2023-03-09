@@ -1,0 +1,680 @@
+@font-face {
+    font-family: AgencyFB;
+    src:url(Asset/AGENCYR.TTF);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Mitr;
+    src: url(Asset/Mitr-Regular.ttf);
+    font-weight: normal;
+}
+
+@-webkit-keyframes glow {
+    from {
+      opacity: 1;
+    }
+    
+    to {
+     opacity: 0;
+    }
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    
+}
+::-webkit-scrollbar-thumb {
+    background:  rgb(0, 142, 185);
+}
+::-webkit-scrollbar-thumb:hover {
+    background:  #2d79c7;
+}
+
+/*BlackTab*/
+.websitelogo {
+    color: black;
+    
+    transition: all 0.4s;
+}
+.blacktab {
+    background-color: rgb(0, 142, 185);
+    width:100%;
+    height:80px;
+    font-family: AgencyFB; /* */
+    position: fixed;
+    left:0%;
+    top:0%;
+    opacity: 0.85;
+    color: rgb(255, 255, 255);
+    z-index: 4;
+    transition: opacity 0.5s;
+}
+.blacktab>h1 {
+    
+    position: absolute;
+    left: 2% ;
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.4s;
+}
+.blacktab>h2 { /*about*/
+    color:  rgb(255, 255, 255);
+    position: absolute;
+    right: 180px;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.4s;
+}
+.articletext{
+    color:   rgb(0, 142, 185);
+    font-family: Mitr;
+    position: absolute;
+    left: 20%;
+}
+
+#Contact {
+    color:   rgb(255, 255, 255);
+    position: absolute;
+    right: 50px;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+}
+
+#TechnicalTerm {
+    color:  rgb(255, 255, 255);
+    position: absolute;
+    right: 270px;
+    top: 13%;
+    opacity: 1;
+    z-index: 5;
+}
+/*BackgroundPic*/
+#MainBackGround {
+    /* Set rules to fill background */
+    min-width: auto;
+    background-image: linear-gradient(to top, rgb(0, 142, 185), rgb(207, 207, 207));
+    /* Set up proportionate scaling */
+    width: 100%;
+    min-height: 1500px;
+      
+    /* Set up positioning */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+ }
+
+
+ /*Logo*/
+ #Banner{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 14%;
+    width: 110vh;
+    height: 38vh;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+#TextLogo{
+    position: absolute;
+    font-family: AgencyFB;
+    font-size: 22vh;
+    width: 70%;
+    height: auto;
+    left: 25vw;
+    transition: all 0.4s;
+    z-index: 2;
+    color:  rgb(0, 142, 185);
+    margin: 33px;
+    
+}
+#GlowingBar {
+    position: absolute;
+    width: 53%;
+    height: 4%;
+    left: 25vw;
+    top:  85%;
+    transition: all 0.5s;
+    z-index: 2;
+    background-color: rgb(0, 142, 185);
+
+}
+
+/*Shadow*/
+#ShadowBanner{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 14%;
+    width: 110vh;
+    height: 38vh;
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+#TextLogo2{
+    color:   #ffffff;
+    position: absolute;
+    font-family: AgencyFB;
+    font-size: 22vh;
+    width: 70%;
+    height: auto;
+    left: 25vw;
+    transition: all 0.4s;
+    z-index: 2;
+    margin: 33px;
+}
+#GlowingBar2 {
+    position: absolute;
+    width: 53%;
+    height: 4%;
+    left: 25vw;
+    top:  85%;
+    transition: all 0.5s;
+    z-index: 2;
+    background-color: #ffffff;
+}
+#Logo {
+    position: relative;
+    top: 7%;
+    left: -5%;
+    width: 29%;
+    height: auto;
+    z-index: 2;
+    transition: all 0.5s;
+}
+#Logo2 {
+    position: relative;
+    top: 7%;
+    left: -5%;
+    width: 29%;
+    height: auto;
+    z-index: 1;
+    color: white;
+
+}
+
+
+/*article*/
+#MainPart {
+     /* Set rules to fill background */
+     min-height: 900px;
+     min-width: auto;
+    background-color:rgb(0, 142, 185);
+     /* Set up proportionate scaling */
+     width: 90%;
+     height: 130%;
+       
+     /* Set up positioning */
+     position: absolute;
+     top: 55%;
+     left: 5%;
+     z-index: 1;
+}
+
+/*1*/
+#FirstArticle {
+    background-color: rgb(255, 255, 255);
+    width: 93.5%;
+    min-height: 22%;
+    position: absolute;
+    top: 30px;
+    left: 2.5%;
+    z-index: 2;
+}
+#FirstArticleShadow {
+    background-color:   rgb(0, 0, 0);
+    width: 93.5%;
+    height:22%;
+    position: absolute;
+    top: 45px;
+    left: 4%;
+    z-index: 1;
+}
+#WhatIs{
+    position: absolute;
+    left: 30px;
+    top:-20px;
+    right: 10px;
+    font-size: 40px;
+    font-family: AgencyFB;
+
+}
+#ThaiWhatIs{
+    position: absolute;
+    left: 30px;
+    top:60px;
+    right: 10px;
+    font-size: 20px;
+}
+
+#WhatIsDetail{
+    position: absolute;
+    left: 30px;
+    top:110px;
+    right: 10px;
+    font-size: 15px;
+    height: 11.5vh;
+}
+/*2*/
+
+#SecondArticle {
+    background-color:  rgb(255, 255, 255);
+    width: 47%;
+    height:270px;
+    position: absolute;
+    top: 270px;
+    left: 47%;
+    z-index: 2;
+}
+#SecondArticleShadow {
+    background-color:  rgb(0, 0, 0);
+    width: 47%;
+    height:260px;
+    position: absolute;
+    top: 290px;
+    left: 48.5%;
+    z-index: 1;
+}
+#Why{
+    position: relative;
+    right: 20px;
+    top: -20px;
+    font-size: 35px;
+    font-family: AgencyFB;
+	text-align: right;
+    
+}
+#ThaiWhy{
+    position: relative;
+    right: 25px;
+    top: -45px;
+    font-size: 20px;
+	text-align: right;
+}
+
+#WhyLearnDetail{
+    position: relative;
+    left: 20px;
+    top: -50px;
+    font-size: 17px;
+	text-align: left;
+    width: 39vw;
+    line-height: 22px;
+}
+ /*3*/
+ #ThirdArticle{
+    background-color:  rgb(255, 255, 255);
+    width: 93.5%;
+    height:24%;
+    position: absolute;
+    top: 580px;
+    left: 2.5%;
+    z-index: 2;
+}
+#ThirdArticleShadow{
+    background-color: rgb(0, 0, 0);
+    width: 93.5%;
+    height:24%;
+    position: absolute;
+    top: 600px;
+    left: 4%;
+    z-index: 1;
+}
+#Famous{
+    position: relative;
+    left: 30px;
+    top:-20px;
+    right: 10px;
+    font-size: 40px;
+    font-family: AgencyFB;
+}
+#ThaiFamous{
+    position: relative;
+    left: 30px;
+    top:-45px;
+    right: 10px;
+    font-size: 22px;
+}
+
+#FamousDetail{
+    position: relative;
+    left: 30px;
+    top:-55px;
+    font-size: 17px;
+    height: 25vh;
+    width: 75vw;
+
+}
+
+#FamousLogo{
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    width: 410px;
+    z-index: 6;
+    /*border: 10px solid rgb(255, 230, 0);*/
+    aspect-ratio:auto;
+    
+}
+
+#FamousLogoBG{
+    background-color:  rgb(0, 0, 0);
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    width: 410px;
+    aspect-ratio: 1068 / 600;
+    height: auto;
+}
+
+#FamousLogoBG2{
+    background-color:  rgb(255, 255, 255);
+    position: absolute;
+    left: 70px;
+    top: 290px;
+    width: 410px;
+    aspect-ratio: 1068 / 600;
+}
+@media only screen and (max-width:1200px){
+    #MainBackGround {
+        height: 1900px;
+     }
+    #ThaiWhatIs{
+        top: 45px;
+    }
+    #WhatIsDetail{
+        top: 80px;
+    }
+    
+    #FirstArticle {
+       
+        width: 93.5%;
+        min-height: 15%;
+        position: absolute;
+        top: 3%;
+        left: 2.5%;
+        z-index: 2;
+    }
+    #FirstArticleShadow {
+       
+        width: 93.5%;
+        height:15%;
+        position: absolute;
+        top: 4.5%;
+        left: 4%;
+        z-index: 1;
+    }
+    #SecondArticle {
+        
+        width: 90%;
+        height:260px;
+        position: absolute;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%,0);
+        z-index: 2;
+    }
+    #SecondArticleShadow {
+       
+        width: 90%;
+        height:260px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translate(-48%,0);
+        z-index: 1;
+    }
+    #ThirdArticle{
+       
+        width: 93.5%;
+        height:24%;
+        position: absolute;
+        top: 71%;
+        left: 2.5%;
+        z-index: 2;
+    }
+    #ThirdArticleShadow{
+        
+        width: 93.5%;
+        height:24%;
+        position: absolute;
+        top: 73%;
+        left: 4%;
+        z-index: 1;
+    }
+    #Why{
+        position: relative;
+        left: 0%;
+        top: -20px;
+        font-size: 40px;
+        font-family: AgencyFB;
+        text-align: center;
+    }
+    #ThaiWhy{
+        position: relative;
+        top: -50px;
+        font-size: 20px;
+        left: 0%;
+        text-align: center;
+    }
+    
+    #WhyLearnDetail{
+        position: absolute;
+        left: 5%;
+        top: 80px;
+        font-size: 17px;
+        text-align: left;
+        width: 50vw;
+        height: 21vh;
+
+    }
+    #FamousLogo{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        top:600px;
+        width: 420px;
+        z-index: 6;
+        /*border: 10px solid rgb(255, 230, 0);*/
+        
+    }
+    #FamousLogoBG{
+        position: absolute;
+        left: 52.5%;
+        transform: translate(-50%,0);
+        top:620px;
+        width: 420px;
+    }
+    
+    #FamousLogoBG2{
+        position: absolute;
+        left: 51%;
+        transform: translate(-50%,0);
+        top:610px;
+        width: 420px;
+    }
+    #MainPart {
+        width: 90%;
+        height: 200%;
+    }
+}
+@media only screen and (max-width:900px){
+    #WhatIsDetail{
+        top: 80px;
+        overflow-y: scroll;
+    }
+    #WhyLearnDetail{
+        top: 80px;
+    }
+
+    #Banner{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 14%;
+        width: 90vw;
+        height: 80vh;
+        transition: all 0.4s;
+    }
+    #TextLogo{
+        position: relative;
+        font-size: 18vh;
+        top: 63%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        transition: all 0.4s;
+        z-index: 2;
+        margin: 33px auto;
+        
+    }
+    #GlowingBar {
+        width: 15%;
+        height: 1.5vh;
+        left: 50%;
+        transform: translate(-50%,0);
+        top:  96%;
+        transition: all 0.5s;
+        z-index: 2;
+    }
+    #Logo {
+        left: 50%;
+        transform: translate(-50%,-70%);
+        width: 40%;
+        max-width: 325px;
+        z-index: 2;
+    }
+    
+    /*Shadow*/
+    #ShadowBanner{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 15%;
+        width: 90vw;
+        height: 80vh;
+        transition: all 0.4s;
+    }
+    
+    #TextLogo2{
+        position: relative;
+        font-size: 18vh;
+        top: 63%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,0);
+        transition: all 0.4s;
+        z-index: 1;
+        margin: 33px auto;
+    }
+    #GlowingBar2 {
+        position: absolute;
+        width: 15%;
+        height: 1.5vh;
+        left: 50%;
+        transform: translate(-50%,0);
+        top:  96%;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    #Logo2 {
+        left: 50%;
+        transform: translate(-50%,-70%);
+        width: 40%;
+        max-width: 325px;
+        z-index: 2;
+        top: 35px;
+    }
+    /*article*/
+#MainPart {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    z-index: 1;
+}
+#SecondArticle {
+   
+    width: 90%;
+    height:330px;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+}
+#SecondArticleShadow {
+  
+    width: 90%;
+    height:330px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-48%,0);
+    z-index: 1;
+}
+#FamousLogo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top:655px;
+    width: 350px;
+    z-index: 6;
+    /*border: 10px solid rgb(255, 230, 0);*/
+    aspect-ratio:2/1.1;
+    
+}
+#FamousLogoBG{
+    position: absolute;
+    left: 52%;
+    transform: translate(-50%,0);
+    top:675px;
+    width: 350px;
+    height: 128;
+}
+
+#FamousLogoBG2{
+
+    position: absolute;
+    left: 51%;
+    transform: translate(-50%,0);
+    top:665px;
+    width: 350px;
+    aspect-ratio:2/1.1;
+}
+@media only screen and (max-width:600px) {
+    #WhyLearnDetail{
+        top: 150px;
+        overflow-y: scroll;
+        width: 75vw;
+    }
+    #FamousDetail{
+        overflow-y: scroll;
+        width: 75vw;
+        height: 19vh;
+    }
+}
+}
+/*hover*/
+.blacktab:hover {
+    opacity: 1;
+}
+.WebsiteLogo:hover{
+    text-shadow: 0 0 10px rgb(255, 255, 255); 
+    cursor: pointer;
+}
+
+.blacktab>h2:hover{
+    cursor: pointer;
+    text-shadow: 0 0 10px rgb(255, 255, 255); 
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C ProLang</title>
+    <link rel="stylesheet" href="C Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">C</h1>
+        <div id="GlowingBar"></div>
+        <img id="Logo" src="Asset/C_logo.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">C</h1>
+        <img id="Logo2" src="Asset/C_Shadow.png" alt="">
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is C?
+            </p>
+            <p id="ThaiWhatIs">C คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                C เป็นภาษาโปรแกรมมิ่งระดับสูงที่นิยมและมีประสิทธิภาพสูง มักถูกนำมาใช้สำหรับการโปรแกรมระบบและระบบฝังตัว มี community ที่ใหญ่โดยเป็นที่รู้จักกันดีเนื่องจากความสามารถในการ port กับอย่างอื่นสูงและความสามารถในการจัดการหน่วยความจำระดับต่ำได้ง่าย ๆ
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. มีประสิทธิภาพสูง<br>       
+				2. สามารถคอมไพล์และรันบนแพลตฟอร์มต่างๆได้<br>
+                3. ควบคุมหน่วยความจำระดับต่ำได้ <br>
+                4. มีคอมมูนิตี้ขนาดใหญ่ <br>
+                ข้อเสีย <br>
+				1. ไม่มีการสนับสนุนสำหรับออบเจกต์หรือคลาส<br>
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous Software that are built using C
+             </p>
+             <p id="ThaiFamous">แอปพลิเคชันดังที่ถูกสร้างด้วย C </p>
+             <p id="FamousDetail"> 
+                ภาษา C ถูกนำมาใช้ในแอปพลิเคชันซอฟต์แวร์หลายตัวที่ได้รับความนิยมอย่างมาก เช่นระบบปฏิบัติการเช่น Windows, Linux, และ macOS รวมถึงระบบฝังตัวในอุตสาหกรรมต่าง ๆ เช่นการบินและอุตสาหกรรมยานยนต์และอุปกรณ์การแพทย์ นอกจากนี้ C ยังถูกนำมาใช้ในเครื่องมือพัฒนาเกมหลายตัว เช่น Unreal Engine และ Unity
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Window.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Java Script.js"></script>
+
+</script>
+</html>

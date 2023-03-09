@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golang ProLang</title>
+    <link rel="stylesheet" href="Go Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">Golang</h1>
+        <div id="GlowingBar"></div>
+        <img id="Logo" src="Asset/Go-Logo_Blue.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">Golang</h1>
+        <img id="Logo2" src="Asset/Go-Logo_Shadow.png" alt="">
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is Go or Golang?
+            </p>
+            <p id="ThaiWhatIs">Go หรือ Golang คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                Go หรือ Golang เป็นภาษาโปรแกรมชนิด Open-source ที่ถูกพัฒนาโดยบริษัท Google มีการออกแบบมาเพื่อสร้างระบบซอฟต์แวร์ที่มีประสิทธิภาพสูงและสามารถขยายได้โดยง่าย 
+                ดยมีคุณสมบัติต่างๆ เช่น ระบบการจัดการเพื่อเก็บขยะ (Garbage collection) และการใช้ได้ง่ายด้วย Syntax ที่ไม่ซับซ้อน ซึ่ง Go นิยมใช้สำหรับการสร้างระบบ Backend, Network Programming, และ Cloud Computing Applications อย่างแพร่หลาย
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. Golang ถูกออกแบบให้เป็นภาษาที่มีประสิทธิภาพและประหยัดพลังงาน <br>       
+				2. เขียนโค้ดที่มีประสิทธิภาพได้ง่าย<br>
+                3. Syntax ง่าย <br>
+                ข้อเสีย <br>
+				1. เขียนโค้ดที่ reusable ยาก<br>
+                2. ไลบรารีของบุคคลที่สามน้อย
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous Software that are built using Go
+             </p>
+             <p id="ThaiFamous">แอปพลิเคชันดังที่ถูกสร้างด้วย Go </p>
+             <p id="FamousDetail"> 
+                ด็อกเกอร์เป็นแพลตฟอร์มการคอนเทนเนอร์ซึ่งทำให้กระบวนการสร้าง การติดตั้ง และการเรียกใช้แอปพลิเคชันในคอนเทนเนอร์ทำได้ง่ายขึ้น ซึ่งฟีเจอร์ของ Golang เช่น การใช้งานพร้อมกันหลายเธรด การคอมไพล์เร็ว และความปลอดภัยของหน่วยความจำ ทำให้ Golang เป็นทางเลือกยอดนิยมสำหรับการสร้างซอฟต์แวร์ในพื้นฐานของโครงสร้างพื้นฐานเช่นด็อกเกอร์
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Docker.webp" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Java Script.js"></script>
+
+</script>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python ProLang</title>
+    <link rel="stylesheet" href="Python Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">Python</h1>
+        <div id="GlowingBar"></div>
+        <img id="Logo" src="Asset/Python-logo.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">Python</h1>
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is Python?
+            </p>
+            <p id="ThaiWhatIs">Python คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                Python เป็นภาษาโปรแกรมระดับสูงที่ใช้งานกันอย่างแพร่หลาย โดยมีจุดเด่นคือสัญลักษณ์ซินเท็กซ์ที่เข้าใจง่ายและชุมชนที่ใหญ่กว่าในการพัฒนา มีการนำไปใช้ในหลายสาขา เช่นการพัฒนาเว็บไซต์ การวิเคราะห์ข้อมูล และ AI อื่นๆ นอกจากนี้ยังมีคุณสมบัติในการใช้งานฟรี โอเพนซอร์ส และรองรับการทำงานบนหลายแพลตฟอร์ม
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. Python มีการเขียนที่เข้าใจง่าย เหมาะสำหรับการเริ่มต้น <br>       
+				2. มีคอมมูนิตี้ที่ใหญ่<br>
+                3. มีความอเนกประสงค์ <br>
+                ข้อเสีย <br>
+				1. ค่อนข้างช้าเพราะต้องเอาไป interpreted ก่อน<br>
+                2. ใช้ Memory มากทำให้ใช้ใน mobile platform ไม่ค่อยดี
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous application that are built using Python
+             </p>
+             <p id="ThaiFamous">แอปพลิเคชันดังที่ถูกสร้างด้วย Python </p>
+             <p id="FamousDetail"> 
+                YouTube ได้ถูกสร้างขึ้นโดยใช้ภาษา Python และโครงสร้างของมันคือ Django โดย Python ถูกนำมาใช้สำหรับโลจิกหลักของเว็บไซต์ เช่นการให้บริการวิดีโอ การตรวจสอบตัวตนผู้ใช้ และการค้นหา
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Youtube.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Python Script.js"></script>
+
+</script>
+</html>

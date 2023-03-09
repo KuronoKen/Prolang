@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript ProLang</title>
+    <link rel="stylesheet" href="TypeScript Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">TypeScript</h1>
+        <div id="GlowingBar"></div>
+        <img id="TSLogo" src="Asset/Typescript_logo.png" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">TypeScript</h1>
+        <div id="TSLogo2"></div>
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is TypeScript?
+            </p>
+            <p id="ThaiWhatIs">TypeScript คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                ไทป์สคริปต์ (TypeScript) เป็นภาษาโปรแกรมระดับสูงแบบโอเพ่นซอร์สฟรีที่พัฒนาและดูแลโดย Microsoft 
+                มันเป็น syntactic superset ของ JavaScript โดยเพิ่มการพิมพ์แบบ static โดยใช้ syntax เหมือนกันทั้งหมด มีจุดประสงค์เพื่อลดจำนวน bug ที่จะเกิดขึ้นและเตือนให้แก้ตั้งแต่ตอนเขียน ในขณะที่ JavaScript แบบปกติจะพบได้ก็ต่อเมื่อนำไป run แล้ว 
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Why use TypeScript over Vanilla JavaScript?</p>
+			<p id="ThaiWhy">ทำไมถึงควรใช้ Typescript แทน JavaScript ปกติ </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. แก้บัคง่ายขึ้น <br>       
+				2. การเขียนที่เร็วขึ้น<br>
+                ข้อเสีย <br>
+				1. ต้อง setup เพิ่ม <br>
+                2. ต้องเรียนรู้เพิ่มเติมจาก JavaScript อีกที
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous Company that uses with TypeScript.
+             </p>
+             <p id="ThaiFamous">แอพดังที่สร้างด้วย TypeScript </p>
+             <p id="FamousDetail"> 
+                 TypeScript ถูกใช้โดย developer จำนวนมากและบริษัทหลายแห่งเช่น Google, Slack and, AirBnb <br>
+                 "โลกนี้มีคนอยู่ 2 ประเภท คือ 1.คนที่รัก TypeScript และ 2.คนที่ยังไม่ได้ใช้ JavaScript มากพอ" -911madza
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Google.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="TypeScript Script.js"></script>
+
+</script>
+</html>

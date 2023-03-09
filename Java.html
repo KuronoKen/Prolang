@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java ProLang</title>
+    <link rel="stylesheet" href="Java Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <h1 id="TextLogo">Java</h1>
+        <div id="GlowingBar"></div>
+        <img id="JVLogo" src="Asset/java-logo.jpg" alt="">
+    </div>
+    <div id = "ShadowBanner">
+        <div id="GlowingBar2"></div>
+        <h1 id="TextLogo2">Java</h1>
+        <div id="JVLogo2"></div>
+    </div>
+    <div id="MainBackGround"></div>
+    <div id= "MainPart">
+        <div class = "articletext" id="FirstArticle" >
+            <p id="WhatIs">
+               What is TypeScript?
+            </p>
+            <p id="ThaiWhatIs">TypeScript คืออะไร</p>
+            <p id="WhatIsDetail"> 
+                จาวา (Java) เป็นภาษาโปรแกรมที่ได้รับความนิยมสำหรับการพัฒนาแอปพลิเคชันที่สามารถทำงานได้บนหลายแพลตฟอร์ม มันใช้ Java Virtual Machine เพื่อสร้างความแตกต่างและมีความปลอดภัยอย่างแน่นหนา มันมีชุมชนนักพัฒนาที่ใหญ่และใช้กันอย่างกว้างขวางสำหรับการพัฒนาแอปพลิเคชันบนเดสก์ท็อป เว็บ และมือถือ
+			</p>
+        </div>
+        <div class = "articletext" id="SecondArticle" >
+            <p id="Why">Pros and Cons.</p>
+			<p id="ThaiWhy">ข้อดี ข้อเสีย </p>
+			<p id="WhyLearnDetail"> 
+                ข้อดี <br>
+				1. สามารถ run ใน platform ใดก็ได้ <br>       
+				2. คอมมูนิตี้ที่ใหญ่<br>
+                3. มีการจัดการ Memory ในตัวเองอย่าง Garbage Collection เป็นต้น
+                ข้อเสีย <br>
+				1. Performance ดีไม่เท่าภาษาอย่าง C หรือ C++<br>
+                2. มีข้อจำกัดในการควบคุมฮารด์แวร์
+			</p>
+        </div>
+        <div class = "articletext" id="ThirdArticle" >
+            <p id="Famous">
+                Famous game that was built with Java.
+             </p>
+             <p id="ThaiFamous">เกมดังที่สร้างด้วย Java </p>
+             <p id="FamousDetail"> 
+                Minecraft ถูกสร้างขึ้นโดยใช้ภาษาโปรแกรม Java พร้อมกับ Lightweight Java Game Library (LWJGL) นอกจากนี้ Minecraft ยังมีการพอร์ตเวอร์ชันอื่นๆ ไปยังภาษาโปรแกรมและแพลตฟอร์มอื่น ๆ เช่น C++ สำหรับ Windows 10 Edition และ Bedrock Edition และ JavaScript สำหรับ Minecraft: Education Edition แต่เวอร์ชันดั้งเดิมที่ใช้ภาษา Java ยังคงเป็นเวอร์ชันที่ได้รับความนิยมที่สุด
+             </p>
+        </div>
+        <div id = "FirstArticleShadow"></div>
+        <div id = "SecondArticleShadow"></div>
+        <div id = "ThirdArticleShadow"></div>
+        <img  id="FamousLogo" src="Asset/Minecraft.jpg" alt="">
+            <div id="FamousLogoBG" ></div>
+            <div id="FamousLogoBG2" ></div>
+    </div>
+    
+</body>
+<script  src="Java Script.js"></script>
+
+</script>
+</html>

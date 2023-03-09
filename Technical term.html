@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Term ProLang</title>
+    <link rel="stylesheet" href="Technical term Style.css">
+	<link rel="icon" href="Asset/Icon.png">
+</head>
+<body>
+    <div class="blacktab">
+        <h1 class = "WebsiteLogo" onclick="Home()">
+            ProLang
+        </h1>	
+        <h2 onclick="About()">
+            About
+        </h2>
+        <h2 id = "Contact" onclick="ContactUs()">
+            Contact Us
+        </h2>
+        <h2 id = "TechnicalTerm" onclick="TechTerm()">
+            Technical Term
+        </h2>
+    </div>
+
+    <div id = "Banner" onmouseover="GlowingLogo()"onmouseleave="LightoutLogo()">
+        <img id="TechLogo" src="Asset/ConfigShadow.png" alt="JavaScript">
+        <h1 id="TextLogo">Technical Term</h1>
+        <div id="glowingbar"></div>
+       
+    </div>
+    <div id = "ShadowBanner">
+        <div id="glowingbar2"></div>
+        <h1 id="TextLogo2">Technical Term</h1>
+        <img id="TechLogo2" src="Asset/Technical Icon.png" alt="JavaScript">
+    </div>
+    <div id="Mainbackground"></div>
+    <div id= "mainpart">
+        <div class = "articletext" id="firstarticle" >
+            <p id="whatisprolang">
+               What does High or Low Level Language mean ?
+            </p>
+            <p id="thaiwhatisprolang">ภาษาระดับสูง หรือ ต่ำ คืออะไร ?</p>
+            <p id="prolangdetail"> 
+                "ภาษาระดับสูง" คือ ภาษาที่ใช้เขียนโปรแกรมใดๆ ที่มีความง่ายต่อการเข้าใจมีรูปแบบในการเขียนไม่ซับซ้อนเป็นมิตรกับผู้ใช้ หรือ ภาษาที่มีความคล้ายกับกับการสื่อสารของคนเรามาก(โดยไม่จำเป็นต้องคอยกำกับข้อจำกัดของฮาร์ดแวร์)
+                ในขณะที่ "ภาษาระดับต่ำ" ตรงข้ามกันโดยที่มีความซับซ้อนในการเขียนมากกว่าแต่จะมีข้อดีคือมักจะมีความเร็วในการ execute สูงกว่าภาษาระดับสูง เพราะผ่านขั้นตอนน้อยกว่า
+            </p>
+        </div>
+        <div class = "articletext" id="secondarticle" >
+            <p id="whatisthread">
+               What is "Thread" ?
+            </p>
+            <p id="thaiwhatisthread">Thread คืออะไร ?</p>
+            <p id="threaddetail"> 
+                เธรด คือ หน่วยการทำงานย่อยที่อยู่ในโพรเซสที่มีการแบ่งปันทรัพยากรต่าง ๆ ในโพรเซสนั้น ๆ 
+                โดยปกติโพรเซส ที่มีเพียง 1 เธรด จะถูกเรียก ว่า Single thread หรือเรียกอีก ชื่อว่า Heavy 
+                Weight Process, เธรด เป็น หน่วยพื้นฐานของการจัดสรรการใช้ประโยชน์ของซีพียู ภายในโพรเซสจะประกอบด้วย
+                เธรดจะมีการแชร์โค้ด ข้อมูล และทรัพยากร เช่น ไฟล์อุปกรณ์ต่าง ๆ เป็นต้น โพรเซสดั้งเดิม (ที่เรียกว่า 
+                Heavy weight) ที่มีการควบคุมเพียง 1 เธรด แสดงว่าทำงานได้1 งาน แต่ถ้าโพรเซสมีหลายเธรด 
+                (อาจเรียกว่า Multithread) จะทำงานได้หลายงานในเวลาเดียวกัน ทำให้ Single thread และ Multi thread มีข้อดีข้อเสียต่างกัน... 
+                <br><a href="http://www.academy.rbru.ac.th/uploadfiles/books/305-2017-08-01-15-52-18.pdf">เรียนรู้เพิ่มเติม(www.academy.rbru.ac.th)</a>
+            </p>
+        </div>
+        <div class = "articletext" id="thirdarticle" >
+            <p id="whatisGC">
+               What is "Garbage Collection" ?
+            </p>
+            <p id="thaiwhatisGC">Garbage Collection คืออะไร ?</p>
+            <p id="GCdetail"> 
+                การทำงานของ application จะอาศัยหน่วยความจำ หรือ Heap memory เป็นที่เก็บข้อมูล object ทั้งหลายเพื่อใช้งานภายใน 
+                ซึ่ง object เหล่านี้เมื่อถูกสร้างแล้วมักจะไม่มีการ clear ค่าภายใน code ซะส่วนใหญ่ ซึ่งทำให้ application นี้จะต้องจอง memory มากขึ้น
+                เรื่อยๆ ซึ่งนั้นย่อมไม่เป็นเรื่องดีแน่ๆเพราะทรัพยากรเราเองก็มีอยู่อย่างจำกัด จึงเป็นที่มาของคำว่า GC  คืออะไร หรือ Garbage collection คืออะไร ซึ่งมันก็คือหลักการคืนหน่วยความจำ memory จาก object 
+                ที่ถูกสร้างขึ้นมาใช้งานและถูกทิ้งค้างไว้ โดยทำงานลบค่า reference ที่ link ระหว่างตัวแปร object และ value ออก และคืนเข้าสู่ Heap memory เพื่อนำเอาไปใช้งานสำหรับสร้าง object ใหม่ๆวนไปเรื่อยๆ 
+                โดยที่ไม่จำเป็นต้องขยายการจอง memory ตลอดไป... <a href="https://saixiii.com/what-is-gc-garbage-collection/">เรียนรู้เพิ่มเติม(saixiii.com)</a>
+            </p>
+        </div>
+        <div class = "articletext" id="fourtharticle" >
+            <p id="whatiscompile">
+               What are "Compiled Language" and "Interpreted Language" ?
+            </p>
+            <p id="thaiwhatiscompile">Compiled Language กับ Interpreted Language คืออะไรแตกต่างกันอย่างไร ?</p>
+            <p id="compiledetail"> 
+                compiled language คือ ภาษาที่ถูกแปลเป็น machine code ก่อนที่จะนำมาใช้ 
+                ซึ่งตรงกันข้ามกับ interpreted language คือ ภาษาที่ถูกแปลและนำมาใช้ทีละคำสั่ง โดยปกติแล้ว compiled language จะมีประสิทธิภาพมากกว่าสำหรับผู้ใช้ Software 
+                ในขณะที่ interpreted language สามารถ interact กับ program ตอนที่เขียนได้ ... <a href="https://www.computerhope.com/jargon/i/interpre.htm">เรียนรู้เพิ่มเติม(www.computerhope.com)(EN)</a>
+            </p>
+        </div>
+        <h2 id="learnmore">ไม่พบคำที่กำลังตามหาหรอ? เรียนรู้เพิ่มเติมได้อีกที่  <a href=" https://www.computerhope.com/jargon/i/interpre.htm">www.computerhope.com(EN)</h2>
+       
+    </div>
+    
+</body>
+<script src="Technical term Script.js"></script>
+
+</script>
+</html>
