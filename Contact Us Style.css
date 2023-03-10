@@ -137,7 +137,7 @@
     /* Set rules to fill background */
    background-color: rgba(0, 0, 0, 0.87);
     /* Set up proportionate scaling */
-    width: 76vh;
+    width: 35vw;
     height: 76vh;
       
     /* Set up positioning */
@@ -199,7 +199,21 @@
     height: auto;
     font-size: 5vh;
 }
-
+@media only screen and (max-width: 500px){
+    .blacktab>h2 { /*about*/
+        right: 25vw;
+        font-size: 4vw;
+        top: 20%;
+    }
+    #Contact {
+        right: 5vw;
+        top: 20%;
+    }
+    #TechnicalTerm {
+        right: 40vw;
+        top: 20%;
+    }
+}
 /*hover*/
 .blacktab:hover {
     opacity: 1;

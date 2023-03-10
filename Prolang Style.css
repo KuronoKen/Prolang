@@ -30,7 +30,6 @@
     transition: opacity 0.5s;
 }
 .blacktab>h1 {
-    
     position: absolute;
     left: 2% ;
     opacity: 1;
@@ -44,6 +43,7 @@
     top: 13%;
     opacity: 1;
     z-index: 5;
+ 
     transition: all 0.4s;
 }
 #Contact {
@@ -149,7 +149,8 @@
     top: 16vw;
     font-family: Mitr;
     transition: all 0.4s;
-    max-width: 26vw;
+    width: 40vw;
+    max-width: 70%;
 }
 
 @media only screen and (max-width: 780px ) {
@@ -161,12 +162,13 @@
         opacity: 0.9;
         width: 55vw;
         height: 45vh;
+        min-width: 60%;
         transition: all 0.5s;
     }
     #Introduction {
         color: white;
         position: absolute;
-        top: 25vw;
+        top: 30vw;
         left: 5%;
         right: 5%;
         font-family: Mitr;
@@ -175,9 +177,10 @@
     #DefaultIntroduction {
         color: white;
         position: absolute;
-        top: 25vw;
+        top: 30vw;
         font-family: Mitr;
         transition: all 0.4s;
+        max-width: 100%;
     }
     #LanguageSelecter {
         position: absolute;
@@ -189,7 +192,10 @@
         z-index: 1;
         transition: opacity 0.7s;
     }
+    
 }
+
+
 
 /*Loading Screen*/
 
@@ -252,7 +258,33 @@
     font-size: 2.5vw;
 }
 
-
+@media only screen and (max-width: 500px){
+    .blacktab>h2 { /*about*/
+        right: 25vw;
+        font-size: 4vw;
+        top: 20%;
+    }
+    #Contact {
+        right: 5vw;
+        top: 20%;
+    }
+    #TechnicalTerm {
+        right: 40vw;
+        top: 20%;
+    }
+    #PercentageNumber {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%,0%);
+        z-index: 7;
+        font-family: AgencyFB;
+        font-size: 10vw;
+    }
+    #LoadingText {
+        font-size: 0vw;
+    }
+}
 
 /*Logo Section*/
 #jslogo { /*Logo on the selecter*/

@@ -385,7 +385,7 @@
 }
 @media only screen and (max-width:1200px){
     #MainBackGround {
-        height: 1900px;
+        height: 2200px;
      }
     #ThaiWhatIs{
         top: 45px;
@@ -663,8 +663,29 @@
         width: 75vw;
         height: 19vh;
     }
+    .blacktab>h2 { /*about*/
+        right: 25vw;
+        font-size: 4vw;
+        top: 20%;
+    }
+    #Contact {
+        right: 5vw;
+        top: 20%;
+    }
+    #TechnicalTerm {
+        right: 40vw;
+        top: 20%;
+    }
+    #TextLogo{
+        font-size: 20vw;
+    }
+    #TextLogo2{
+        font-size: 20vw;
+    }
 }
 }
+
+
 
 /*hover*/
 .blacktab:hover {
