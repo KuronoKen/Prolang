@@ -137,16 +137,15 @@
     /* Set rules to fill background */
    background-color: rgba(0, 0, 0, 0.87);
     /* Set up proportionate scaling */
-    width: 35vw;
+    width:  80%;
     height: 76vh;
-      
+    max-width: 500px;
     /* Set up positioning */
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%,0);
     z-index: 1;
-    border-radius: 10%;
 }
 
 #GmailIcon{
