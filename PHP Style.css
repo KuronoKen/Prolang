@@ -229,6 +229,14 @@
     top: 30px;
     left: 2.5%;
     z-index: 2;
+    transition: all 0.9s;
+    transform: translate(0,90%);
+    opacity: 0;
+}
+#FirstArticle>*{
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #FirstArticleShadow {
     background-color:   rgb(0, 0, 0);
@@ -238,6 +246,9 @@
     top: 45px;
     left: 4%;
     z-index: 1;
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #WhatIs{
     position: absolute;
@@ -274,6 +285,14 @@
     top: 270px;
     left: 47%;
     z-index: 2;
+    transition: all 0.9s;
+    transform: translate(0,90%);
+    opacity: 0;
+}
+#SecondArticle>*{
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #SecondArticleShadow {
     background-color:rgb(0, 0, 0);
@@ -283,6 +302,9 @@
     top: 290px;
     left: 48.5%;
     z-index: 1;
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #Why{
     position: relative;
@@ -319,6 +341,14 @@
     top: 580px;
     left: 2.5%;
     z-index: 2;
+    transition: all 0.9s;
+    transform: translate(0,90%);
+    opacity: 0;
+}
+#ThirdArticle>*{
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #ThirdArticleShadow{
     background-color:  rgb(0, 0, 0);
@@ -328,6 +358,9 @@
     top: 600px;
     left: 4%;
     z-index: 1;
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #Famous{
     position: relative;
@@ -363,7 +396,9 @@
     z-index: 6;
     /*border: 10px solid rgb(255, 230, 0);*/
     aspect-ratio:auto;
-    
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 
 #FamousLogoBG{
@@ -374,6 +409,9 @@
     width: 410px;
     aspect-ratio: 1024 / 385;
     height: auto;
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 
 #FamousLogoBG2{
@@ -383,6 +421,9 @@
     top: 340px;
     width: 410px;
     aspect-ratio: 1024 / 385;
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 @media only screen and (max-width:1200px){
     #MainBackGround {

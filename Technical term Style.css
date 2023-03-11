@@ -9,15 +9,10 @@
     font-weight: normal;
 }
 
-@-webkit-keyframes glow {
-    from {
-      opacity: 1;
-    }
-    
-    to {
-     opacity: 0;
-    }
-}
+
+
+
+
 
 ::-webkit-scrollbar{
     width: 5px;
@@ -226,6 +221,14 @@
     top: 6vh;
     left: 2.5%;
     z-index: 2;
+    opacity: 0;
+    transition: all 0.9s;
+    transform: translate(0,90%);
+}
+#firstarticle>*{
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #whatisprolang{
     position: absolute;
@@ -267,7 +270,14 @@
     top: 46vh;
     left: 2.5%;
     z-index: 2;
-    
+    transition: all 0.9s;
+    transform: translate(0,90%);
+    opacity: 0;
+}
+#secondarticle>*{
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #whatisthread{
     position: absolute;
@@ -314,7 +324,14 @@
     top: 91vh;
     left: 2.5%;
     z-index: 2;
-    
+    transition: all 0.9s;
+    transform: translate(0,90%);
+    opacity: 0;
+}
+#thirdarticle>*{
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #whatisGC{
     position: absolute;
@@ -360,7 +377,14 @@
     left: 2.5%;
     z-index: 2;
     text-align: right;
-    
+    transition: all 0.9s;
+    transform: translate(0,90%);
+    opacity: 0;
+}
+#fourtharticle>*{
+    opacity: 0;
+    transition: all 1.2s;
+    transform: translate(0,90%);
 }
 #whatiscompile{
     position: absolute;
@@ -406,8 +430,9 @@
     font-size: 2.4vh;
     color: #e5e9eb;
     text-align: right;
-
-
+    transition: all 0.9s;
+    transform: translate(0,300%);
+    opacity: 0;
 }
 #learnmore>a {
     color: black;
@@ -631,6 +656,9 @@
     }
 
 }
+
+
+
 /*hover*/
 
 .blacktab:hover {

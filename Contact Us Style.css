@@ -143,10 +143,16 @@
     max-width: 500px;
     /* Set up positioning */
     position: absolute;
-    top: 20%;
+    top: 21%;
     left: 50%;
     transform: translate(-50%,0);
     z-index: 1;
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+#mainpart>*{
+    opacity: 0;
 }
 
 #GmailIcon{
@@ -164,8 +170,7 @@
     left:28%;
     top: 55%;
     height: auto;
-    font-size: 2.5vw;
-    
+    font-size: calc(2.5vw + 1vh);
 }
 #TwitterIcon{
     position: inherit;
@@ -182,7 +187,7 @@
     left:28%;
     top: 36%;
     height: auto;
-    font-size: 2.5vw;
+    font-size: calc(2.5vw + 1vh);
 }
 #DiscordIcon{
     position: inherit;

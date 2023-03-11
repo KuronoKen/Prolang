@@ -69,6 +69,8 @@ function Lua() {
     location.href = ("Lua.html")
 }
 
+
+
 async function LoadingScreen(){
     document.getElementById("insideloading").style.width = "98%";
     for (let i = 1; i <= 100; i++){
@@ -98,6 +100,7 @@ async function LoadingScreen(){
     await delay(1000)
     document.getElementById("LoadingBackground").remove();
     document.getElementById("outsideloading").remove();
+    
 }
 
 function GlowingLogo(){

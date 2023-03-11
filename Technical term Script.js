@@ -27,3 +27,37 @@ function LightoutLogo(){
     document.getElementById("JSLogo2").style.left = "-60%";
     document.getElementById("JSLogo2").style.top = "10%";
 }
+
+function LoadIn(){
+    document.getElementById("firstarticle").style.opacity = 1;
+    document.getElementById("firstarticle").style.transform = "translate(0,0)";
+    const elementpart = document.getElementById("firstarticle").children;
+    for (let i = 0; i < elementpart.length; i++) {
+        elementpart[i].style.opacity = "1";
+        elementpart[i].style.transform = "translate(0,0)";
+    }
+    document.getElementById("secondarticle").style.opacity = 1;
+    document.getElementById("secondarticle").style.transform = "translate(0,0)";
+    const elementpart2 = document.getElementById("secondarticle").children;
+    for (let i = 0; i < elementpart.length; i++) {
+        elementpart2[i].style.opacity = "1";
+        elementpart2[i].style.transform = "translate(0,0)";
+    }
+    document.getElementById("thirdarticle").style.opacity = 1;
+    document.getElementById("thirdarticle").style.transform = "translate(0,0)";
+    const elementpart3 = document.getElementById("thirdarticle").children;
+    for (let i = 0; i < elementpart.length; i++) {
+        elementpart3[i].style.opacity = "1";
+        elementpart3[i].style.transform = "translate(0,0)";
+    }
+    document.getElementById("fourtharticle").style.opacity = 1;
+    document.getElementById("fourtharticle").style.transform = "translate(0,0)";
+    const elementpart4 = document.getElementById("fourtharticle").children;
+    for (let i = 0; i < elementpart.length; i++) {
+        elementpart4[i].style.opacity = "1";
+        elementpart4[i].style.transform = "translate(0,0)";
+    }
+    document.getElementById("learnmore").style.opacity = 1;
+    document.getElementById("learnmore").style.transform = "translate(0,0)";
+    
+}
