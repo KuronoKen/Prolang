@@ -96,7 +96,7 @@
     background-color: #e5e9eb;
     /* Set up proportionate scaling */
     width: 100%;
-    height: 260%;
+    height: 350vh;
       
     /* Set up positioning */
     position: absolute;
@@ -205,7 +205,7 @@
     background-color:#576063;
      /* Set up proportionate scaling */
      width: 90vw;
-     height: 90vh;
+     height: 100vh;
        
      /* Set up positioning */
      position: absolute;
@@ -233,7 +233,7 @@
 #whatisprolang{
     position: absolute;
     left: 30px;
-    top:-20px;
+    top:-10%;
     right: 10px;
     font-size: 5.8vh;
     font-family: AgencyFB;
@@ -243,7 +243,7 @@
 #thaiwhatisprolang{
     position: absolute;
     left: 30px;
-    top:60px;
+    top:22%;
     right: 10px;
     font-size: 3vh;
     color:#e5e9eb;
@@ -253,7 +253,7 @@
 #prolangdetail{
     position: absolute;
     left: 30px;
-    top:110px;
+    top:40%;
     right: 10px;
     font-size: 2.4vh;
     color: #e5e9eb;
@@ -282,7 +282,7 @@
 #whatisthread{
     position: absolute;
     left: 30px;
-    top:-20px;
+    top:-10%;
     right: 10px;
     font-size: 6vh;
     font-family: AgencyFB;
@@ -293,7 +293,7 @@
 #thaiwhatisthread{
     position: absolute;
     left: 30px;
-    top:60px;
+    top:22%;
     right: 10px;
     font-size: 3vh;
     color:#e5e9eb;
@@ -303,7 +303,7 @@
 #threaddetail{
     position: absolute;
     left: 30px;
-    top:110px;
+    top:40%;
     right: 10px;
     font-size: 2.4vh;
     color: #e5e9eb;
@@ -336,7 +336,7 @@
 #whatisGC{
     position: absolute;
     left: 30px;
-    top:-20px;
+    top:-10%;
     right: 10px;
     font-size: 6vh;
     font-family: AgencyFB;
@@ -347,7 +347,7 @@
 #thaiwhatisGC{
     position: absolute;
     left: 30px;
-    top:60px;
+    top:22%;
     right: 10px;
     font-size: 3vh;
     color:#e5e9eb;
@@ -357,7 +357,7 @@
 #GCdetail{
     position: absolute;
     left: 30px;
-    top:110px;
+    top:40%;
     right: 10px;
     font-size: 2.4vh;
     color: #e5e9eb;
@@ -389,7 +389,7 @@
 #whatiscompile{
     position: absolute;
     left: 30px;
-    top:-20px;
+    top:-10%;
     right: 10px;
     font-size: 6vh;
     font-family: AgencyFB;
@@ -401,7 +401,7 @@
 #thaiwhatiscompile{
     position: absolute;
     left: 30px;
-    top:60px;
+    top:22%;
     right: 10px;
     font-size: 3vh;
     color:#e5e9eb;
@@ -412,7 +412,7 @@
 #compiledetail{
     position: absolute;
     left: 30px;
-    top:110px;
+    top:40%;
     right: 10px;
     font-size: 2.4vh;
     color: #e5e9eb;
@@ -451,7 +451,7 @@
     #TextLogo{
         position: relative;
         font-size: 18vh;
-        top: 60%;
+        top: 70%;
         width: 100%;
         height: auto;
         text-align: center;
@@ -467,14 +467,14 @@
         height: 1.5vh;
         left: 50%;
         transform: translate(-50%,0);
-        top:  93%;
+        top:  105%;
         transition: all 0.5s;
         z-index: 2;
     }
     #TechLogo {
         left: 50%;
         transform: translate(-50%,0);
-        top: 4vh;
+        top: 9vh;
         width: 50%;
         max-width: 325px;
         z-index: 2;
@@ -497,7 +497,7 @@
         position: relative;
         font-family: AgencyFB;
         font-size: 18vh;
-        top: 60%;
+        top: 70%;
         width: 100%;
         height: auto;
         text-align: center;
@@ -514,7 +514,7 @@
         height: 1.5vh;
         left: 50%;
         transform: translate(-50%,0);
-        top:  93%;
+        top:  105%;
         transition: all 0.5s;
         z-index: 1;
     }
@@ -522,7 +522,7 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%,0);
-        top: 4vh;
+        top: 9vh;
         width: 50%;
         max-width: 325px;
         height: auto;
@@ -559,7 +559,6 @@
     font-size: 5vh;
 }
 #thaiwhatiscompile{
-    top: 70px;
     line-height: 20px;
     font-size: 2.5vh;
 }
