@@ -99,7 +99,8 @@
     background-color:rgb(255, 230, 0);
     /* Set up proportionate scaling */
     width: 100%;
-    min-height: 1500px;
+    min-height: 200vh;
+    
       
     /* Set up positioning */
     position: absolute;
@@ -390,7 +391,7 @@
 
 #FamousLogo{
     position: absolute;
-    left: 50px;
+    left: 5%;
     width: calc(34% + 3vh);
     top:calc(8vh + 25%);
     z-index: 6;
@@ -404,7 +405,7 @@
 #FamousLogoBG{
     background-color: rgb(255, 173, 0);
     position: absolute;
-    left: 70px;
+    left: 7%;
     top:calc(8vh + 27%);
     height: auto;
     width: calc(34% + 3vh); 
@@ -417,7 +418,7 @@
 #FamousLogoBG2{
     background-color: rgb(255, 230, 0);
     position: absolute;
-    left: 60px;
+    left: 6%;
     top:calc(8vh + 26%);
     height: auto;
     width: calc(34% + 3vh); 

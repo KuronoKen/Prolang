@@ -140,7 +140,7 @@
     /* Set up proportionate scaling */
     width:  80%;
     height: 76vh;
-    max-width: 500px;
+    max-width: 35%;
     /* Set up positioning */
     position: absolute;
     top: 21%;
@@ -170,7 +170,7 @@
     left:28%;
     top: 55%;
     height: auto;
-    font-size: calc(2.5vw + 1vh);
+    font-size: calc(2vw + 1.5vh);
 }
 #TwitterIcon{
     position: inherit;
@@ -187,7 +187,7 @@
     left:28%;
     top: 36%;
     height: auto;
-    font-size: calc(2.5vw + 1vh);
+    font-size: calc(2vw + 1.5vh);
 }
 #DiscordIcon{
     position: inherit;
@@ -203,7 +203,12 @@
     left:28%;
     top: 76%;
     height: auto;
-    font-size: 2.5vw;
+    font-size: calc(2vw + 1.5vh);
+}
+@media only screen and (max-width: 950px){
+    #mainpart{
+        max-width: 500px;
+    }
 }
 @media only screen and (max-width: 500px){
     .blacktab>h2 { /*about*/

@@ -99,7 +99,7 @@
     background-color: #3e9fff;
     /* Set up proportionate scaling */
     width: 100%;
-    min-height: 1500px;
+    min-height: 200vh;
       
     /* Set up positioning */
     position: absolute;

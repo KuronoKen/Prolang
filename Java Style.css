@@ -99,7 +99,7 @@
     background-color: #3e9fff;
     /* Set up proportionate scaling */
     width: 100%;
-    min-height: 1500px;
+    min-height: 200vh;
       
     /* Set up positioning */
     position: absolute;
@@ -388,8 +388,8 @@
 
 #FamousLogo{
     position: absolute;
-    left: 60px;
-    width: calc(34% + 3vh);
+    left: 5%;
+    width: calc(32% + 3vh);
     top:calc(8vh + 25%);
     z-index: 6;
     /*border: 10px solid rgb(255, 230, 0);*/
@@ -402,8 +402,8 @@
 #FamousLogoBG{
     background-color: rgb(206, 0, 0);
     position: absolute;
-    left: 80px;
-    width: calc(34% + 3vh);
+    left: 7%;
+    width: calc(32% + 3vh);
     top:calc(8vh + 27%);
     aspect-ratio: 2 / 1.05;
     height: auto;
@@ -415,8 +415,8 @@
 #FamousLogoBG2{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    left: 70px;
-    width: calc(34% + 3vh);
+    left: 6%;
+    width: calc(32% + 3vh);
     top:calc(8vh + 26%);
     aspect-ratio: 2 / 1.05;
     opacity: 0;
