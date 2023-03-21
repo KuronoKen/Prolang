@@ -210,7 +210,7 @@
     background-color: #2d79c7;
      /* Set up proportionate scaling */
      width: 90%;
-     height: 100vh;
+     height: 130%;
        
      /* Set up positioning */
      position: absolute;
@@ -352,9 +352,9 @@
 #ThirdArticleShadow{
     background-color: #3e9fff;
     width: 93.5%;
-    height:24%;
+    height: calc(30% + 3vh);
     position: absolute;
-    top: 600px;
+    top:calc(12vh + 56%);
     left: 4%;
     z-index: 1;
     opacity: 0;
@@ -390,7 +390,7 @@
 #FamousLogo{
     position: absolute;
     left: 7%;
-    width: calc(25% + 3vh);
+    width: calc(27% + 3vh);
     top:calc(8vh + 25%);
     z-index: 6;
     /*border: 10px solid rgb(255, 230, 0);*/
