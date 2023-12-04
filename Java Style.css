@@ -31,7 +31,10 @@
 ::-webkit-scrollbar-thumb:hover {
     background:  #2d79c7;
 }
-
+body { 
+    min-height: 100vh;
+    background-color: #3e9fff; 
+}
 /*BlackTab*/
 .websitelogo {
     color: black;
@@ -99,8 +102,7 @@
     background-color: #3e9fff;
     /* Set up proportionate scaling */
     width: 100%;
-    min-height: 200vh;
-      
+    height: 150%;
     /* Set up positioning */
     position: absolute;
     top: 0%;

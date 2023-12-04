@@ -93,6 +93,11 @@
     z-index: 5;
 }
 /*BackgroundPic*/
+
+body { 
+    min-height: 100vh;
+    background-color: #3e9fff; 
+}
 #MainBackGround {
     /* Set rules to fill background */
     min-width: auto;

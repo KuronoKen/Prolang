@@ -92,21 +92,10 @@
     opacity: 1;
     z-index: 5;
 }
-/*BackgroundPic*/
-#MainBackGround {
-    /* Set rules to fill background */
-    min-width: auto;
-    background-color: rgb(105, 150, 209);
-    /* Set up proportionate scaling */
-    width: 100%;
-    min-height: 200vh;
-      
-    /* Set up positioning */
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: 0;
- }
+body { 
+    min-height: 100vh;
+    background-color: rgb(105, 150, 209); 
+}
 
 
  /*Logo*/

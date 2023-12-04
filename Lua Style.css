@@ -93,6 +93,10 @@
     z-index: 5;
 }
 /*BackgroundPic*/
+body { 
+    min-height: 100vh;
+    background-image: linear-gradient(to left, rgb(0, 44, 165), rgb(255, 255, 255));
+}
 #MainBackGround {
     /* Set rules to fill background */
     min-width: auto;

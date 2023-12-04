@@ -93,26 +93,16 @@
     z-index: 5;
 }
 /*BackgroundPic*/
-#MainBackGround {
-    /* Set rules to fill background */
-    min-width: auto;
-    background-color: #3e9fff;
-    /* Set up proportionate scaling */
-    width: 100%;
-    min-height: 200vh;
-      
-    /* Set up positioning */
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: 0;
-    object-fit: cover;
-    filter: brightness(50%);
- }
+body { 
+    min-height: 100vh;
+    background-image: url(Asset/Coding.jpg);
+}
+/*BackgroundPic*/
 
 
- /*Logo*/
- #Banner{
+
+/*Logo*/
+#Banner{
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);

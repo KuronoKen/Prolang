@@ -31,7 +31,10 @@
 ::-webkit-scrollbar-thumb:hover {
     background:  #2d79c7;
 }
-
+body { 
+    min-height: 100vh;
+    background-color: rgb(77, 77, 77); 
+}
 /*BlackTab*/
 .websitelogo {
     color: black;
@@ -69,7 +72,7 @@
     transition: all 0.4s;
 }
 .articletext{
-    color:  rgb(128, 128, 128);
+    color:  rgb(77, 77, 77);
     font-family: Mitr;
     position: absolute;
     left: 20%;
@@ -96,7 +99,7 @@
 #MainBackGround {
     /* Set rules to fill background */
     min-width: auto;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(77, 77, 77);
     /* Set up proportionate scaling */
     width: 100%;
     min-height: 200vh;
@@ -130,7 +133,7 @@
     left: 25vw;
     transition: all 0.4s;
     z-index: 2;
-    color:  rgb(128, 128, 128);
+    color:  rgb(255, 255, 255);
     margin: 33px;
     
 }
@@ -142,7 +145,7 @@
     top:  85%;
     transition: all 0.5s;
     z-index: 2;
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(255, 255, 255);
 
 }
 
